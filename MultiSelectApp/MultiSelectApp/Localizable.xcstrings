@@ -1,0 +1,39 @@
+{
+  "sourceLanguage" : "ru",
+  "strings" : {
+    "option.required.label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "required"
+          }
+        }
+      }
+    },
+    "options.select-all.button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрать всё"
+          }
+        }
+      }
+    },
+    "options.submit.button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отправить"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

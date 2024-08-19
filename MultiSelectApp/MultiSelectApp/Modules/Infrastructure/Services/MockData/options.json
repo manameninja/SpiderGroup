@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,
+        "title": "Красный",
+        "required": true,
+        "tappedOnSelectAll": true,
+        "isSelected": false
+    },
+    {
+        "id": 2,
+        "title": "Зеленый",
+        "required": true,
+        "tappedOnSelectAll": false,
+        "isSelected": false
+    },
+    {
+        "id": 3,
+        "title": "Синий",
+        "required": false,
+        "tappedOnSelectAll": true,
+        "isSelected": false
+    },
+    {
+        "id": 4,
+        "title": "Желтый",
+        "required": false,
+        "tappedOnSelectAll": false,
+        "isSelected": false
+    },
+    {
+        "id": 5,
+        "title": "Фиолетовый",
+        "required": true,
+        "tappedOnSelectAll": true,
+        "isSelected": false
+    },
+    {
+        "id": 6,
+        "title": "Оранжевый",
+        "required": true,
+        "tappedOnSelectAll": false,
+        "isSelected": false
+    },
+    {
+        "id": 7,
+        "title": "Розовый",
+        "required": false,
+        "tappedOnSelectAll": true,
+        "isSelected": false
+    },
+    {
+        "id": 8,
+        "title": "Коричневый",
+        "required": false,
+        "tappedOnSelectAll": false,
+        "isSelected": false
+    },
+    {
+        "id": 9,
+        "title": "Черный",
+        "required": true,
+        "tappedOnSelectAll": true,
+        "isSelected": false
+    },
+    {
+        "id": 10,
+        "title": "Белый",
+        "required": true,
+        "tappedOnSelectAll": false,
+        "isSelected": false
+    },
+    {
+        "id": 11,
+        "title": "Серый",
+        "required": false,
+        "tappedOnSelectAll": true,
+        "isSelected": false
+    },
+    {
+        "id": 12,
+        "title": "Золотой",
+        "required": false,
+        "tappedOnSelectAll": false,
+        "isSelected": false
+    },
+    {
+        "id": 13,
+        "title": "Серебряный",
+        "required": true,
+        "tappedOnSelectAll": true,
+        "isSelected": false
+    },
+    {
+        "id": 14,
+        "title": "Бежевый",
+        "required": true,
+        "tappedOnSelectAll": false,
+        "isSelected": false
+    },
+    {
+        "id": 15,
+        "title": "Бирюзовый",
+        "required": false,
+        "tappedOnSelectAll": true,
+        "isSelected": false
+    },
+    {
+        "id": 16,
+        "title": "Бордовый",
+        "required": false,
+        "tappedOnSelectAll": false,
+        "isSelected": false
+    },
+    {
+        "id": 17,
+        "title": "Лиловый",
+        "required": true,
+        "tappedOnSelectAll": true,
+        "isSelected": false
+    },
+    {
+        "id": 18,
+        "title": "Изумрудный",
+        "required": true,
+        "tappedOnSelectAll": false,
+        "isSelected": false
+    },
+    {
+        "id": 19,
+        "title": "Салатовый",
+        "required": false,
+        "tappedOnSelectAll": true,
+        "isSelected": false
+    },
+    {
+        "id": 20,
+        "title": "Лазурный",
+        "required": false,
+        "tappedOnSelectAll": false,
+        "isSelected": false
+    },
+    {
+        "id": 21,
+        "title": "Персиковый",
+        "required": true,
+        "tappedOnSelectAll": true,
+        "isSelected": false
+    },
+    {
+        "id": 22,
+        "title": "Хаки",
+        "required": true,
+        "tappedOnSelectAll": false,
+        "isSelected": false
+    },
+    {
+        "id": 23,
+        "title": "Коралловый",
+        "required": false,
+        "tappedOnSelectAll": true,
+        "isSelected": false
+    },
+    {
+        "id": 24,
+        "title": "Шоколадный",
+        "required": false,
+        "tappedOnSelectAll": false,
+        "isSelected": false
+    },
+    {
+        "id": 25,
+        "title": "Пурпурный",
+        "required": true,
+        "tappedOnSelectAll": true,
+        "isSelected": false
+    },
+    {
+        "id": 26,
+        "title": "Оливковый",
+        "required": true,
+        "tappedOnSelectAll": false,
+        "isSelected": false
+    },
+    {
+        "id": 27,
+        "title": "Малиновый",
+        "required": false,
+        "tappedOnSelectAll": true,
+        "isSelected": false
+    },
+    {
+        "id": 28,
+        "title": "Небесный",
+        "required": false,
+        "tappedOnSelectAll": false,
+        "isSelected": false
+    },
+    {
+        "id": 29,
+        "title": "Лимонный",
+        "required": true,
+        "tappedOnSelectAll": true,
+        "isSelected": false
+    },
+    {
+        "id": 30,
+        "title": "Лавандовый",
+        "required": true,
+        "tappedOnSelectAll": false,
+        "isSelected": false
+    }
+]
