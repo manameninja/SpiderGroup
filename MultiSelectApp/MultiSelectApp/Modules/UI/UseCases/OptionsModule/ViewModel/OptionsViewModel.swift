@@ -1,6 +1,6 @@
 //
 //  OptionsViewModel.swift
-
+//  UI
 //
 //  Created by Даниил Павленко on 18.08.2024.
 //
@@ -33,22 +33,24 @@ public class OptionsViewModel: ObservableObject {
     func toggleOptionSelection(_ option: Option) {
         guard let index = options.firstIndex(where: { $0.id == option.id }) else { return }
         options[index].isSelected.toggle()
-        updateSelectAllState()
+        updateSelectAllState(didElementTapped: true)
         updateSubmitButtonState()
     }
     
     func toggleSelectAll() {
-        guard selectAllTapped else { return }
-        isSelectAll.toggle()
-        for index in options.indices where options[index].tappedOnSelectAll {
-            options[index].isSelected = isSelectAll
+        if selectAllTapped {
+            for index in options.indices where options[index].tappedOnSelectAll {
+                options[index].isSelected = isSelectAll
+            }
+        } else {
+            isSelectAll.toggle()
         }
         updateSubmitButtonState()
     }
     
-    private func updateSelectAllState() {
-        let allSelected = options.filter { $0.tappedOnSelectAll }.allSatisfy { $0.isSelected }
-        selectAllTapped = allSelected
+    private func updateSelectAllState(didElementTapped: Bool) {
+        let allSelected = didElementTapped ? options.filter { $0.required }.allSatisfy { $0.isSelected } : options.filter { $0.tappedOnSelectAll }.allSatisfy { $0.isSelected }
+        selectAllTapped = !didElementTapped
         isSelectAll = allSelected
     }
     
